@@ -21,6 +21,7 @@ app.use('/api', router);
 
 // mongoose.connect('mongodb://0.0.0.0:27017/Event_Slayer', {
   mongoose.connect('mongodb://127.0.0.1/Event_Slayer', {
+  
 
   //useNewUrlParser: true,  
   // serverSelectionTimeoutMS: 3000, // Set a higher timeout value (e.g., 30 seconds) 
